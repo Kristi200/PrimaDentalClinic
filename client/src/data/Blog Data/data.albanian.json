@@ -1,0 +1,64 @@
+{
+    "BlogDataAlbanian": [
+        {
+            "id": "implantology",
+            "title": "Implantologjia",
+            "subDescription": "Implantologjia është një fushë e stomatologjisë që merret me vendosjen e implanteve dentare për të zëvendësuar dhëmbët që mungojnë. Implantet dentare janë struktura metalike (zakonisht prej titani) që futen në kockën e nofullës për të krijuar një bazë të qëndrueshme për montimin e kurorave, të cilat mund të jenë ose proteza të lëvizshme ose fikse. Procedura për vendosjen e implanteve dentare përfshin një sërë hapash.",
+            "subDescription2": "Së pari, bëhet një vlerësim gjithëpërfshirës i strukturës së dhëmbit dhe nofullës së pacientit. Më pas, kryhet operacioni i vendosjes së implantit, ku një shtyllë metalike futet në kockë duke përdorur teknika të specializuara kirurgjikale. Pas një periudhe shërimi, gjatë së cilës implanti bashkohet me kockën, një kurorë e personalizuar (dhëmb protetik) vendoset në implant për të krijuar një zgjidhje të përsosur dhe të qëndrueshme.",
+            "subDescription3": "Implantet dentare ofrojnë shumë përparësi në krahasim me alternativat tradicionale për mbushjen e boshllëqeve. Ato ofrojnë një ndërhyrje më të qëndrueshme dhe afatgjatë, duke ndihmuar në ruajtjen e strukturës së nofullës dhe duke përmirësuar funksionin dhe estetikën e dhëmbëve.",
+            "subDescription4": "Për më tepër, ato mund të zgjasin jetëgjatësinë e pacientit dhe të përmirësojnë cilësinë e jetës së tij duke rivendosur funksionin e duhur oral dhe duke përmirësuar besimin estetik.",
+            "coverImage": "../../../public/images/Service Images/implantology.jpg",
+            "image": "../../../public/images/Service Images/implantology.jpg",
+            "image2": "../../../public/images/Service Images/implantology.jpg",
+            "image3": "../../../public/images/Service Images/implantology.jpg",
+            "image4": "../../../public/images/Service Images/implantology.jpg",
+            "icon": "../../../public/images/Service Images/surgery-icon.png",
+            "category": "surgery"
+        },
+        {
+            "id": "pedodontics",
+            "title": "Pedodoncia",
+            "subDescription": "Mbushjet e dhëmbëve të qumështit kryhen me ngjyra të ndryshme për t'i bërë ato më të këndshme për pacientët e rinj, si dhe mbushjet mbrojtëse që çlirojnë fluor (silantë) për të parandaluar prishjen e dhëmbëve. Është shumë e rëndësishme t'i ruani ato për aq kohë sa të jetë e mundur sepse humbja e parakohshme e tyre mund të bllokojë hapësirën për daljen e dhëmbëve të përhershëm.",
+            "subDescription2": "Devitalizimi: Trajtim për dhëmbët që janë dëmtuar rëndë ose lënduar për shkak të traumës, e cila mund të çojë në ekspozimin e pulpës (nervit) duke shkaktuar dhimbje të forta dhe ënjtje në zonën e prekur. Trajtimi i kanalit të rrënjës tek fëmijët kërkon kujdes dhe përvojë të veçantë. Duhet të kryhet për të parandaluar rrezikun e infeksionit në dhëmbin e qumështit dhe dëmtimin e sythit të përhershëm të dhëmbit.",
+            "subDescription3": "Trajtimi i infeksionit: Një dhëmb i infektuar duhet të trajtohet menjëherë. Në varësi të rastit, ndiqen trajtime të ndryshme për të ndaluar infeksionin, duke përfshirë terapinë me antibiotikë, trajtimin dhe mbushjen e kanaleve.",
+            "subDescription4": "Fluorizimi: Periodikisht, çdo 3 deri në 6 muaj, për mbrojtjen e dhëmbëve nga prishja dhe për të rritur forcën e dhëmbit pas daljes së tij. Ai depozitohet në sipërfaqen e dhëmbit, duke e bërë atë më rezistent ndaj kaviteteve.",
+            "coverImage": "../../../public/images/Service Images/PedodonticsImage1.jpeg",
+            "image": "../../../public/images/Service Images/PedodonticsImage1.jpeg",
+            "image2": "../../../public/images/Service Images/PedodonticsImage2.jpeg",
+            "image3": "../../../public/images/Service Images/PedodonticsImage1.jpeg",
+            "image4": "../../../public/images/Service Images/PedodonticsImage2.jpeg",
+            "icon": "../../../public/images/Service Images/general-dentistry-icon.png",
+            "category": "general-dentistry"
+        },
+        {
+            "id": "hollywood-smile",
+            "title": "Hollywood Smile",
+            "subDescription": "Buzëqeshja e Hollivudit, e njohur edhe si Buzëqeshja e Hollivudit, është një term që përdoret për të përshkruar një buzëqeshje mahnitëse dhe tërheqëse që përdoret shpesh nga yjet e Hollivudit dhe individët që duan të krijojnë një pamje të përsosur dentare. Disa aspekte kryesore të një buzëqeshjeje të Hollivudit përfshijnë: Dhëmbë të bardhë dhe të drejtë: Një buzëqeshje hollivudiane përfshin dhëmbë të bardhë dhe të drejtë. Kjo mund të arrihet përmes procedurave të zbardhjes së dhëmbëve, plotësimit të boshllëqeve dhe korrigjimit të çdo defekti dentar si hapësira midis dhëmbëve ose formës së tyre.",
+            "subDescription2": "Forma dhe madhësia e dhëmbëve: Dhëmbët në një buzëqeshje të Hollivudit janë zakonisht të formës së rregullt dhe të harmonizuar. Procedurat estetike dentare si mbushjet e përbëra ose kurora dentare mund të përdoren për të rregulluar formën dhe madhësinë e dhëmbëve për të krijuar një buzëqeshje tërheqëse dhe simetrike.",
+            "subDescription3": "Harmonia e ngjyrave të dhëmbëve: Ngjyra e dhëmbëve është një element kyç në një buzëqeshje në Hollywood. Përdorimi i procedurave të zbardhjes së dhëmbëve mund të ndihmojë në arritjen e një ngjyre të ndritshme dhe rrezatuese për dhëmbët.",
+            "subDescription4": "Higjiena dhe mirëmbajtja e vazhdueshme e gojës: Për të ruajtur një buzëqeshje të Hollivudit, është e rëndësishme të ruani një higjienë të mirë dhe të qëndrueshme orale. Larja e rregullt e dhëmbëve, vizitat periodike te dentisti dhe kujdesi i vazhdueshëm për shëndetin oral janë thelbësore për të ruajtur një buzëqeshje të bukur dhe të shëndetshme.",
+            "coverImage": "../../../public/images/Service Images/hollywood-smile3.jpeg",
+            "image": "../../../public/images/Service Images/hollywood-smile.jpeg",
+            "image2": "../../../public/images/Service Images/hollywood-smile2.jpg",
+            "image3": "../../../public/images/Service Images/hollywood-smile3.jpeg",
+            "image4": "../../../public/images/Service Images/hollywood-smile4.jpg",
+            "icon": "../../../public/images/Service Images/cosmetic-dentistry-icon.png",
+            "category": "cosmetic-dentistry"
+        },
+        {
+            "id": "microneedling",
+            "title": "Microneedling (Dermapen)",
+            "subDescription": "Microneedling, i njohur gjithashtu si Dermapen, është një procedurë kozmetike që përfshin përdorimin e një pajisjeje me hala të vogla dhe të holla për të krijuar mikro-lëndime të kontrolluara në lëkurë. Ky proces stimulon reagimin natyral të shërimit të lëkurës, duke nxitur prodhimin e kolagjenit dhe duke përmirësuar pamjen e përgjithshme të lëkurës. Këtu janë disa informacione kryesore në lidhje me procedurën e Microneedling (Dermapen):",
+            "subDescription2": "Gjatë një seance microneedling, një profesionist estetik i trajnuar përdor një pajisje dore me hala të vogla për të krijuar shpime të vogla në sipërfaqen e lëkurës. Këto mikro-lëndime nxisin procesin natyral të shërimit të trupit dhe stimulojnë prodhimin e kolagjenit dhe elastinës.",
+            "subDescription3": "Përfitimet: Microneedling mund të trajtojë shqetësime të ndryshme të lëkurës, duke përfshirë linjat e imëta dhe rrudhat, shenjat e akneve, hiperpigmentimin, strukturën e pabarabartë të lëkurës dhe poret e zmadhuara. Mund të përmirësojë gjithashtu përthithjen dhe efektivitetin e produkteve të kujdesit aktual të lëkurës.",
+            "subDescription4": "Induksioni i kolagjenit: Mikro-dëmtimet e kontrolluara të krijuara nga microneedling stimulojnë prodhimin e kolagjenit dhe elastinës në lëkurë. Kjo ndihmon në përmirësimin e strukturës së lëkurës, zvogëlimin e rrudhave dhe përmirësimin e strukturës së përgjithshme të lëkurës.",
+            "coverImage": "../../../public/images/Service Images/Microneedling.jpg",
+            "image": "../../../public/images/Service Images/Dermal-Fillers.jpg",
+            "image2": "../../../public/images/Service Images/Dermal-Fillers2.jpg",
+            "image3": "../../../public/images/Service Images/Dermal-Fillers.jpg",
+            "image4": "../../../public/images/Service Images/Dermal-Fillers2.jpg",
+            "icon": "../../../public/images/Service Images/Aesthetic-Dentistry-icon.png",
+            "category": "aesthetic-medicine"
+        }
+    ]
+}

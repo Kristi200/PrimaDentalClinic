@@ -1,0 +1,20 @@
+{
+    "SubCategorys": [
+        {
+            "category": "Aesthetic Dentistry",
+            "subCategorys": ["Dermal Fillers","Botox","Microneedling (Dermapen)","Mesotherapy","Prp and Prf","PDO Lifting Threads","Chemical Peeling","Plasmapen","Sclerotherapy","Botox Facial"]
+        },
+        {
+            "category": "Cosmetic Dentistry",
+            "subCategorys": ["Aesthetic Dentistry","Hollywood Smile","Dental Prosthetics","Orthodontics"]
+        },
+        {
+            "category": "General Dentistry",
+            "subCategorys": ["Conservative Dentistry","Sedation","Endodontics","Periodontics","Pedodontics","Radiology"]
+        },
+        {
+            "category": "Surgery",
+            "subCategorys": ["Implantology","Oral & Maxillofacial Surgery","Bichectomy","Upper Lip Lift"]
+        }
+    ]
+}

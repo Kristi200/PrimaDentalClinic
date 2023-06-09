@@ -1,0 +1,20 @@
+{
+    "SubCategorysItalian": [
+        {
+            "category": "Medicina Estetica",
+            "subCategorys": ["Filler Dermali","Botox","Microneedling (Dermapen)","Mesoterapia","Rrp and Prf","Fili di trazione in PDO","Peeling Chimico","Plasmapen","Scleroterapia","Botox Facial"]
+        },
+        {
+            "category": "Odontoiatria Cosmetica",
+            "subCategorys": ["Odontoiatria Estetica","Hollywood Smile","Protesi Dentali","Ortodonzia"]
+        },
+        {
+            "category": "Odontoiatria Generale",
+            "subCategorys": ["Odontoiatria Conservativa","Sedazione","Endodonzia","Parodontologia","Pedodonzia","Radiologia"]
+        },
+        {
+            "category": "Chirurgia",
+            "subCategorys": ["Implantologia","Chirurgia Orale e maxillo-facciale","Bichectomia","Lifting del labbro superiore"]
+        }
+    ]
+}

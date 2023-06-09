@@ -1,0 +1,122 @@
+html{
+    height: -webkit-fill-available;
+}
+
+body{
+    height: 100vh;
+    height: -webkit-fill-available;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.BackgroundImage{
+    background-image: linear-gradient(rgba(0, 40, 86, 0.9),rgba(0, 40, 86, 0.9)) , url('./assets/booking-form-bg.jpg');
+    background-position: center;
+}
+
+.map-container{
+    width: 90vh;
+    height: 95vh;
+}
+
+.linearBlue{
+    background: linear-gradient(rgba(0, 40, 86, 0.0),rgba(0, 40, 86, 0.7));
+}
+
+.slide-up{
+    animation: slideEffect 1s ease-in forwards;
+}
+
+.slit-in-vertical {
+	animation: slit-in-vertical 0.7s ease-in ;
+}
+
+.insta{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.fadeInLeft {
+    animation: fadeInLeft 1s ease-in-out;
+}
+
+.fadeInRight{
+    animation: fadeInRight 1s ease-in-out;
+}
+
+.fadeInTop{
+    animation: fadeInTop 1s ease-in-out;
+}
+
+@keyframes fadeInTop {
+    from {
+        opacity: 0;
+        transform: translateY(150px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.closeEffect{
+    height: 0;
+    transform: scale(1, 0);
+    transition: 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.openEffect{
+    height: 384px;
+    transform: scale(1, 1);
+    transition: 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* For Mobile */
+@media screen and (max-width: 767px) {
+    .map-container {
+        width: 53vh;
+        height: 53vh;
+    }
+
+}
+
+/* For Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .map-container {
+        width: 58.5vh;
+        height: 58.5vh;
+    }
+
+
+    .closeEffect{
+        height: 0;
+        transform: scale(1, 0);
+        transition: 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+    
+    .openEffect{
+        height: 400px;
+        transform: scale(1, 1);
+        transition: 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+}

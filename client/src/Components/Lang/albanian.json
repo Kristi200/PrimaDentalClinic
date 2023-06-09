@@ -1,0 +1,150 @@
+{
+    "albanian": "Shqip",
+    "english": "Anglisht",
+    "italian": "Italisht",
+    "week": "E Hënë - E Shtunë",
+    "home" : "Kreu",
+    "about": "Rreth Nesh",
+    "services": "Shërbimet",
+    "blog": "Blog",
+    "dentalTourism": "Turizmi Dentar",
+    "contact": "Na Kontaktoni",
+    "navbarButton": "Rezervoni Online",
+    
+    
+    "homeCarousel1": "Mirësevini në Klinikën Dentare Prima, ku fillon udhëtimi juaj drejt një buzëqeshjeje perfekte!",
+    "carouselAbout1": "Transformoni buzëqeshjen tuaj <br> Zbuloni fuqinë e ekselencës dentare.",
+    "homeCarousel2": "Preçizion & Efiçencë <br> Teknologjia Dentare",
+    "carouselAbout2": "Faleminderit qe na besuat buzeqeshjen tuaj! <br> Ofrojmë zgjidhje pa dhimbje dhe afatgjata",
+    "homeCarousel3": "Mënyra Më e Mirë Për Të Udhëtuar Për <br> Nevojat Tuaja Dentare",
+    "carouselAbout3": "Fluturo Në Shtëpi Duke Buzëqeshur! Është Aq e Lehtë Sa Një, Dy, Tre <br> ju jeni më të lumtur!",
+    "carouselButton": "Rezervo një takim",
+    
+
+    "getToKnowUs": "Njihuni Me Ne",
+    "aboutUsTitle": "Rreth Nesh - Prima Dental Clinic",
+    "aboutUsDescription": "Po kërkoni një buzëqeshje rrezatuese dhe kujdes dentar të patëmetë? <br> Mos kërkoni më larg se klinika jonë  dentare, ku ne përpiqemi të plotësojmë <br> nevojat tuaja dentare në mënyrën më profesionale dhe miqësore. Ekipi ynë <br> me përvojë dhe i kualifikuar i dentistëve është i përkushtuar për t'ju ofruar trajtim të <br> avancuar  dhe shërbime të personalizuara të përshtatura për çdo pacient. Me ekspertizën <br>  tonë të gjerë dhe teknologjitë moderne në dispozicion, ne ofrojmë një gamë të gjerë <br> shërbimesh dentare, duke përfshirë shtrirjen e dhëmbëve, imazhe 3D, implante dentare, <br> mbushje kozmetike  dhe shumë më shumë. Ne e vlerësojmë çdo pacient dhe kemi një qëllim <br> në mendje: të sigurojmë një buzëqeshje të shëndetshme dhe të bukur për ju.",
+    "aboutUsButton": "Lexo më shumë",
+    "aboutUsLogo": "Prima Dental Clinic",
+    "aboutUsLogoDescription": "Më të mirët në këtë fushë!",
+
+
+    "ourServices": "Shërbimet Tona",
+    "ourServicesTitle": "Ne ofrojmë gamën e plotë të shërbimeve",
+    "ourServicesButton": "Shiko më shumë",
+
+
+    "dropDowns": "Partneri juaj i shëndetit për të gjithë jetën.",
+    "dropDownsTitle1": "Klikoni në një nga seksionet më <br> poshtë për të mësuar më shumë <br> rreth të gjitha mënyrave të <br> ndryshme se si mund të kujdesemi <br> për ty.",
+    "button1": "Stomatologji për familjen",
+    "button2": "Estetikë",
+    "button3": "Check Ups",
+    "button4": "Implante",
+    "button1Title": "Stomatologji për familjen",
+    "button1Description1": "Klinika jonë ofron stomatologji të specializuar pediatrike, duke ofruar kujdes të shkëlqyer dhe miqësor ndaj fëmijëve <br> për të ruajtur buzëqeshjen e tyre të shëndetshme. Me një ekip stomatologësh pediatër me përvojë dhe kujdes, <br> ne sigurojmë trajtimin dhe konsultimin e duhur për shëndetin dentar të fëmijëve.",
+    "button2Title": "Estetikë",
+    "button2Description1": "Estetika në një klinikë dentare na lejon të krijojmë një ambient të bukur dhe mikpritës për <br> pacientët tanë. Që në momentin që hyni në klinikën tonë, do të përshëndeteni nga një atmosferë <br> moderne dhe tërheqëse e krijuar për të rritur rehatinë dhe relaksimin tuaj.",
+    "button3Title": "Check Ups",
+    "button3Description1": "Një vizitë kontrolli në klinikën tonë dentare është hapi i parë drejt një buzëqeshjeje të shëndetshme <br>dhe të bukur. Me një ekip stomatologësh të kujdesshëm dhe të kualifikuar, <br> ne ofrojmë një kontroll të plotë të shëndetit të dhëmbëve tuaj.",
+    "button4Title": "Implante",
+    "button4Description1": "Implantet dentare janë zgjidhja e avancuar për zëvendësimin e dhëmbëve që mungojnë. <br> Klinika jonë dentare ofron trajtim profesional implant duke përdorur teknologjinë më të fundit. <br> Nëpërmjet një procesi të përpiktë, një implant dentar i vendosur saktësisht do të zëvendësojë rrënjën te <br> dhëmbi i munguar, duke siguruar stabilitet dhe funksionalitet si një dhëmb natyral. <br> Implanti procedura e vendosjes është e sigurt dhe kryhet nga ekspertë me përvojë në fushën e stomatologji <br> implantologji.",
+
+
+    "blogNews": "Blog & Artikuj",
+    "blogNewsTitle": "Lexo lajmet & artikujt tona më të fundit",
+    "blogNewsDescription1": "Zbardhim Profesional",
+    "blogNewsDescription2": "Pedodonti",
+    "blogNewsDescription3": "Bikektomia",
+    "blogNewsButton": "Lexo më shumë",
+
+
+    "ourGallery": "Galeria Jonë",
+    "ourGalleryTitle": "Vendi ideal për të gjitha nevojat tuaja",
+    "ourGalleryTitle2": "dentare",
+    "ourGalleryDescription1": "Check Up",
+    "ourGalleryDescription2": "Fillera",
+    "ourGalleryDescription3": "Implantologji",
+    "ourGalleryDescription4": "Stomatologji Estetike",
+    "ourGalleryDescription5": "Stomatologji Konservative",
+
+
+    "formTitle": "Rezervo një takim",
+    "formName": "Emër Mbiemër",
+    "formEmail": "Email",
+    "formDate": "Data",
+    "formTime": "Ora",
+    "formNumber": "Nr Tel",
+    "formMessage": "Mesazhi",
+    "locationTitle": "Ku Ndodhemi",
+
+
+    "footBarTitle1": "Na Kontaktoni",
+    "footBarTitle2": "Eksploro",
+    "footBarTitle3": "Lidhje Të Tjera",
+    "footbarDescription1": "Jemi një grup i përbërë nga profesionistë energjikë, <br> stomatologë të dijes dhe të ndjeshëm, <br> që merren me atë që është e rëndësishme për ju: <br> të arrini një buzëqeshje të bukur <br> dhe të shëndetshme për gjithë jetën. Duke kombinuar <br> teknologjinë dhe procedurat stomatologjike <br> të fundit me një mjedis miqësor dhe kujdesor, <br> ofrojmë një përvojë të pa krahasueshme <br> për pacientët tanë.",
+    "footBarPrivacy": "Poltikat e Privatësisë",
+    "footBarTerms": "Kushtet e përdorimit",
+
+
+    "moreInfoTitle": "Përse të na zgjidhni?",
+    "moreInfoGroup1Title": "Ndihmë cilësore e vazhdueshme:",
+    "moreInfoGroup1Description": "Asistenca cilësore dhe e vazhdueshme është thelbësore për shëndetin oral. Ofrojnë shërbime të avancuara dhe profesionale si pastrim dhe mbrojtje, mbushje, nxjerrje dhe implante dentare. Stafi i kualifikuar dhe pajisjet moderne sigurojnë trajtim efektiv dhe të sigurt. Nëpërmjet asistencës cilësore, pacientët mund të mbajnë një buzëqeshje të shëndetshme dhe të ndihen më të sigurt në kujdesin e tyre oral.",
+    "moreInfoGroup2Title": "Ne përdorim teknologji të fundit dentare dhe materiale të cilësisë më të lartë:",
+    "moreInfoGroup2Description": "Përdorimi i teknologjisë së avancuar na lejon të ofrojmë trajtim të saktë dhe efektiv për pacientët tanë. Pajisjet moderne dhe metodat inovative sigurojnë rezultate të shkëlqyera në fushën e stomatologjisë. Për më tepër, ne zgjedhim materialet me cilësi më të lartë për të siguruar që trajtimi të jetë i qëndrueshëm dhe afatgjatë. Kjo i ndihmon pacientët tanë të ruajnë një shëndet të mirë oral dhe të gëzojnë rezultate të shkëlqyera në mirëqenien e tyre dentare.",
+    "moreInfoGroup3Title": "Ndershmëri dhe komoditet",
+    "moreInfoGroup3Description": "Ne përpiqemi të sigurojmë që pacientët tanë të kenë një përvojë të rehatshme dhe të kujdesen mirë gjatë vizitave të tyre. Ambienti ynë është krijuar për të ofruar një atmosferë të qetë dhe relaksuese. Pajisjet moderne dhe teknologjitë inovative mundësojnë trajtime më të lehta dhe më efektive. Stafi ynë i vëmendshëm dhe miqësor është gjithmonë i gatshëm të ndihmojë dhe t'u përgjigjet pyetjeve të pacientëve. Ne besojmë në ndërtimin e marrëdhënieve afatgjata me pacientët tanë dhe ofrimin e një shërbimi të ndershëm dhe të këndshëm.",
+    "moreInfoGroup4Title": "Komfort",
+    "moreInfoGroup4Description": "Ne e vlerësojmë rëndësinë e kësaj dhe punojmë për të siguruar një mjedis të rehatshëm për pacientët tanë. Që nga momenti kur hyni në zonën e pritjes deri te karriget dhe pajisjet e dizajnuara për rehati, ne kujdesemi për çdo detaj. Stafi ynë i trajnuar mirë do t'ju ndihmojë të ndiheni të qetë dhe të relaksuar gjatë trajtimit tuaj.",
+
+
+    "aboutGallery": "Galeria",
+    "aboutGalleryTitle": "Shfleto galerinë dhe njihu me ambientet e klinikës sonë",
+
+
+    "servicesButton1": "Të Gjitha Kategoritë",
+    "servicesButton2": "Kirurgji",
+    "servicesButton3": "Dentistri e Përgjithshme",
+    "servicesButton4": "Dentistri Estetike",
+    "servicesButton5": "Mjekësi Estetike",
+
+
+    "blogPage": "Njerëzit pyesin gjithashtu",
+    "blogPageTitle": "Pyetjet më të shpeshta",
+    "blogPageQuestion1Title": "Çfarë duhet të kërkoj kur zgjedh dentistin e duhur për mua?",
+    "blogPageQuestion1Description1": "Sigurohuni që dentisti të jetë i kualifikuar dhe i licencuar për të ushtruar",
+    "blogPageQuestion1Description2": "Kontrolloni nëse dentisti përdor pajisje dhe teknologji të avancuar në praktikën e tij",
+    "blogPageQuestion1Description3": "Lexoni rishikimet dhe referencat nga pacientët e mëparshëm për të marrë një ide mbi përvojën e tyre me dentistin",
+    "blogPageQuestion1Description4": "Është e rëndësishme të zgjidhni një dentist, vendndodhja dhe orari i të cilit janë të përshtatshëm për ju",
+    "blogPageQuestion1Description5": "Një dentist i mirë duhet të ketë aftësi efektive komunikimi dhe t'ju bëjë të ndiheni rehat gjatë vizitave tuaja",
+    "blogPageQuestion1Description6": "",
+    "blogPageQuestion2Title": "Pse është Shqipëria destinacioni i ri për turizmin dentar <br> dhe estetik?",
+    "blogPageQuestion2Description1": "Shqipëria ka një numër të madh stomatologësh dhe klinikash dentare që ofrojnë shërbime me cilësi të lartë dhe janë të pajisura me profesionistë të kualifikuar.",
+    "blogPageQuestion2Description2": "Krahasuar me vendet e tjera, kostoja e trajtimeve dentare dhe estetike në Shqipëri është dukshëm më e ulët. Kjo e bën atë një opsion të përballueshëm për ata që kërkojnë procedura të tilla",
+    "blogPageQuestion2Description3": "Shumë klinika dentare në Shqipëri janë të pajisura me pajisje moderne dhe pajisje moderne, duke siguruar që pacientët të marrin kujdes të nivelit të lartë.",
+    "blogPageQuestion2Description4": "Stomatologët shqiptarë shquhen për ekspertizën dhe aftësitë e tyre në këtë fushë. Ata vazhdojnë me përparimet më të fundit në stomatologji dhe marrin pjesë në zhvillimin e vazhdueshëm profesional për të ofruar kujdesin më të mirë të mundshëm për pacientët e tyre",
+    "blogPageQuestion2Description5": "Shqipëria është një vend i njohur për bukurinë e saj natyrore, bregdetin mahnitës dhe trashëgiminë e pasur kulturore. Kombinimi i trajtimeve dentare ose estetike me pushimet në Shqipëri u mundëson vizitorëve të shijojnë kujdes shëndetësor cilësor dhe një eksperiencë udhëtimi të paharrueshme.",
+    "blogPageQuestion2Description6": "Shqipëria është e lidhur mirë me fluturimet ndërkombëtare, duke e bërë atë lehtësisht të aksesueshme për pacientët ndërkombëtarë që kërkojnë trajtime dentare dhe estetike.",
+    "blogPageQuestion3Title": "Dhëmbët e mi ndjehen mirë . A duhet të shkoj te dentisti?",
+    "blogPageQuestion3Description1": "Po, edhe nëse dhëmbët tuaj ndihen mirë dhe nuk po përjetoni ndonjë dhimbje apo shqetësim, është ende e rëndësishme që të shkoni rregullisht tek dentisti për kontrolle rutinë dhe kujdes parandalues. Vizitat e rregullta dentare lejojnë dentistin tuaj të pastrojë dhëmbët tuaj në mënyrë profesionale, duke hequr pllakën, gurët dhe njollat që nuk mund të hiqen në mënyrë efektive përmes larjes së rregullt të dhëmbëve dhe përdorimit të fillit me fill. Kjo ndihmon në parandalimin e grumbullimit të baktereve dhe zvogëlon rrezikun e dëmtimit të dhëmbëve, sëmundjeve të mishrave të dhëmbëve dhe erës së keqe të gojës.",
+    "blogPageQuestion4Title": "Pse kanë rëndësi kontrollet dhe pastrimet?",
+    "blogPageQuestion4Description1": "Pastrimi i rregullt ndihmon në heqjen e pllakave dhe gurëve, të cilat janë kontribuesit kryesorë në prishjen e dhëmbëve dhe sëmundjet e mishrave të dhëmbëve. Duke hequr këto substanca, rreziku i zhvillimit të kaviteteve dhe inflamacionit të mishrave të dhëmbëve reduktohet ndjeshëm. Për më tepër, gjatë kontrolleve, dentistët mund të identifikojnë shenjat e hershme të problemeve dentare si kavitetet, sëmundjet e mishrave të dhëmbëve, infeksionet orale dhe kancerin oral. Zbulimi i hershëm mundëson trajtimin e menjëhershëm, duke parandaluar përparimin e këtyre problemeve",
+    "blogPageQuestion5Title": "Cilat janë çmimet në klinikën tuaj?",
+    "blogPageQuestion5Description1": "Ne gjithmonë përpiqemi t'i mbajmë çmimet tona të përballueshme për shumicën e njerëzve, por në të njëjtën kohë, ne i përmbahemi standardeve të larta të cilësisë së kujdesit të ofruara në klinikën tonë",
+    "blogPageQuestion6Title": "Si mund ta planifikoj kontrollin tim të ardhshëm?",
+    "blogPageQuestion6Description1": "Thjesht telefononi praktikën tonë! Stafi ynë i recepsionit do të jetë i lumtur t'ju ndihmojë <br> të planifikojë kontrollin tuaj të ardhshëm dentar sipas lehtësisë suaj. Nëse jeni një pacient i ri <br>, ju lutemi na njoftoni dhe ne do t'ju ofrojmë të gjithë informacionin <br> që ju nevojitet për vizitën tuaj të parë tek dentisti.",
+
+
+    "dentalTourismPage": "Ndihu i lirë të qeshësh!",
+    "dentalTourismPageDescription": "Shqipëria ofron një destinacion bindës për kujdesin dentar, duke kombinuar shërbime cilësore dentare me një eksperiencë unike udhëtimi. Shqipëria krenohet me një grup të talentuar stomatologësh që kanë marrë trajnime dhe arsimim të shkëlqyer si brenda dhe jashtë vendit. Shumë stomatologë në Shqipëri kanë fituar ekspertizë në specialitete të ndryshme dentare, duke siguruar që ju të merrni një kujdes dentar cilësor dhe të specializuar. Klinikat dentare shqiptare janë të pajisura me teknologji dhe pajisje dentare moderne dhe moderne. Nga imazhet dixhitale te teknikat e avancuara të trajtimit, mund të prisni që përparimet më të fundit në stomatologji të jenë të disponueshme në Shqipëri.",
+    "dental": "Ç'farë ofrojmë",
+    "dentalTitle": "Qëllimi ynë është një shërbim <br> dentar ekonomik, i bërë në formate <br> të specializuara, i përshtatur për <br> turistët.",
+    "dentalDropdown1Title": "Bileta udhëtimi",
+    "dentalDropdown1Description": "Mos harroni të merrni valixhen tuaj, ne do të kujdesemi për pjesën tjetër. <br>Ne kërkojmë rehati maksimale që nuk cenon kurrë cilësinë <br> dhe efikasitetin e shërbimeve tona, gjithmonë të organizuar mirë për t'ju ftuar <br> të eksploroni vendin tonë duke rikuperuar një buzëqeshje të bukur dhe natyrale.",
+    "dentalDropdown2Title": "Akomodimi",
+    "dentalDropdown2Description": "Ne përpiqemi të ofrojmë kujdes dhe mikpritje të jashtëzakonshme <br> për klientët tanë të çmuar. Jini të sigurt,  rehatia dhe kënaqësia juaj <br> janë prioritetet tona kryesore. Ne jemi të përkushtuar të sigurojmë që <br> akomodimi juaj plotëson standardet më të larta dhe i tejkalon pritjet tuaja. <br> Mirëqenia juaj është shqetësimi ynë më i madh dhe ne krenohemi që ju <br> ofrojmë një qëndrim të këndshëm dhe të paharrueshëm <br>.",
+    "dentalDropdown3Title": "Transport Aeroport - Klinikë",
+    "dentalDropdown3Description": "Që nga momenti që shkelni në aeroport, stafi ynë i përkushtuar  është <br> këtu për t'ju ndihmuar në çdo  hap të rrugës. Ne e kuptojmë rëndësinë <br> e një udhëtimi pa probleme dhe ekipi ynë do të jetë atje për t'ju  mirëpritur <br> dhe për të siguruar një kalim të qetë në vendndodhjen e klinikës sonë. <br> Pavarësisht nëse është organizimi i transportit ose ofrimi i udhëzimeve, <br> stafi ynë është i përkushtuar për ta bërë përvojën tuaj  të rehatshme dhe pa stres.<br> Jini të sigurt, ju jeni në duar të mira që nga momenti që mbërrini deri në përfundimin <br>  e kujdesit tuaj dentar.",
+    "dentalDropdown4Title": "Asistencë mjekësore",
+    "dentalDropdown4Description": "Angazhimi ynë për kujdesin tuaj nuk mbaron kur të largoheni nga Shqipëria. Ne e kuptojmë se mbështetja dhe udhëzimi i vazhdueshëm <br> janë thelbësore për mirëqenien tuaj dentare. Kjo është arsyeja pse ne ofrojmë <br> ndihmë të vazhdueshme përmes platformave online edhe pasi të jeni kthyer në shtëpi. Ekipi ynë <br> do të jetë i disponueshëm për t'iu përgjigjur çdo pyetjeje, për të ofruar udhëzime pas trajtimit dhe për të adresuar <br> çdo shqetësim që mund të keni. Ju mund të mbështeteni tek ne që të jemi aty për ju, pavarësisht se ku jeni <br>, duke u siguruar që udhëtimi juaj dentar të jetë i suksesshëm nga fillimi në fund. Shëndeti juaj oral është prioriteti ynë <br> dhe ne jemi të përkushtuar ndaj kënaqësisë dhe mirëqenies tuaj afatgjatë.",
+    "dentalGalleryTitle": "Guidat tona do t'ju udhëzojnë për të zbuluar vendet më të bukura në Shqipëri"
+} 
