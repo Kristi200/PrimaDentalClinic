@@ -65,7 +65,7 @@ const Navbar = (props) => {
                         <Link to="/services"><li>{t("services")}</li></Link>
                         <Link to="/blogs"><li>{t("blog")}</li></Link>
                         <Link to="/dental-tourism"><li>{t("dentalTourism")}</li></Link>
-                        <a href="/free-quote"><li>{t("contact")}</li></a>
+                        <Link href="/free-quote"><li>{t("contact")}</li></Link>
                     </ul>
                     <button type="button" className="bg-[#002856] w-[14%] h-3/5 text-white rounded-md hover:bg-[#00ACB1] duration-300 sm:hidden md:hidden"><Link to="/free-quote">{t("navbarButton")}</Link></button>
                 </div>
