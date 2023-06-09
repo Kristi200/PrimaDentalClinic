@@ -65,7 +65,7 @@ const Navbar = (props) => {
                         <Link to="/services"><li>{t("services")}</li></Link>
                         <Link to="/blogs"><li>{t("blog")}</li></Link>
                         <Link to="/dental-tourism"><li>{t("dentalTourism")}</li></Link>
-                        <Link href="/free-quote"><li>{t("contact")}</li></Link>
+                        <Link to="/free-quote"><li>{t("contact")}</li></Link>
                     </ul>
                     <button type="button" className="bg-[#002856] w-[14%] h-3/5 text-white rounded-md hover:bg-[#00ACB1] duration-300 sm:hidden md:hidden"><Link to="/free-quote">{t("navbarButton")}</Link></button>
                 </div>
@@ -77,7 +77,7 @@ const Navbar = (props) => {
                             <li><Link to="/services" onClick={() => setMenu(!menu)}>{t("services")}</Link></li>
                             <li><Link to="/blogs" onClick={() => setMenu(!menu)}>{t("blog")}</Link></li>
                             <li><Link to="/dental-tourism" onClick={() => setMenu(!menu)}>{t("dentalTourism")}</Link></li>
-                            <li><a href="/free-quote" onClick={() => setMenu(!menu)}>{t("contact")}</a></li>
+                            <li><Link to="/free-quote" onClick={() => setMenu(!menu)}>{t("contact")}</Link></li>
                         </ul>
                         <button type='submit' className='px-5 py-3 rounded-md bg-[#002856] border-none hover:bg-[#00ACB1] text-white duration-300 m-5 md:ml-12'><Link to="/free-quote">{t("navbarButton")}</Link></button>
                     </div>
