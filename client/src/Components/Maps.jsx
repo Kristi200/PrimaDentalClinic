@@ -10,8 +10,8 @@ const Maps = () => {
     
 
     return (
-        <GoogleMap zoom={13} center={{lat: 42.0693,lng: 19.5033}} mapContainerClassName='map-container'>
-            <Marker position={{lat: 42.0693,lng:19.5033}}/>
+        <GoogleMap zoom={13} center={{lat: 40.9420,lng: 19.6996}} mapContainerClassName='map-container'>
+            <Marker position={{lat: 40.9420,lng:19.6996}}/>
         </GoogleMap>
     )
 }
