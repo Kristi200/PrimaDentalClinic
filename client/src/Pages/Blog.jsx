@@ -140,8 +140,8 @@ const Blog = (props) => {
       <ScrollAnimation className='flex sm:flex-col md:flex-col lg:flex-row justify-center lg:py-20 gap-6 sm:px-5 md:px-10 lg:px-28' animateIn='fadeInTop'>
         <img src={BlogInfoImage} height={600} alt="Blog More Info Image" className='object-center h-[500px]'/>
         <div className='flex flex-col gap-3'>
-          <p className='text-[#00ACB1] font-bold'>People Also Ask</p>
-          <p className='text-4xl font-bold text-[#002856]'>Frequently Asked Questions</p>
+          <p className='text-[#00ACB1] font-bold'>{t("blogPage")}</p>
+          <p className='text-4xl font-bold text-[#002856]'>{t("blogPageTitle")}</p>
           <div className='duration-500 child:mb-5'>
             {/* Question 1 */}
             <div className={(showMoreInfo1) ? "border border-[#00ACB1] p-5 rounded-xl h-fit overflow-hidden " : "border border-[#00ACB1] p-5 rounded-xl sm:h-28 md:h-16 h-16 overflow-hidden"} onClick={(e) => questionStateCheck(e)}>

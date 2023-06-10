@@ -80,7 +80,7 @@ const DentalTourism = () => {
           <p className="text-[#00ACB1] sm:text-sm font-bold">{t("dental")}</p>
           <div className="child:text-[#002856] child:font-bold sm:child:text-2xl md:child:text-4xl lg:child:text-4xl mt-3 mb-10">
             <p>
-              <Trans components={{ br: <br/> }}>{t("dentalTitle")}</Trans>
+              <Trans components={{ br: <br className="sm:hidden md:hiddne"/> }}>{t("dentalTitle")}</Trans>
             </p>
           </div>
           <div className="flex sm:flex-col md:flex-col gap-5 z-10 mb-10 child:text-white child:rounded-md child-hover:bg-[#00ACB1] child:px-6 md:child:px-5 child:py-4 md:child:py-2 child:duration-300 md:child:text-2xl">
