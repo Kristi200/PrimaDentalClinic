@@ -7,11 +7,12 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Trans, useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 
 const Blog = (props) => {
   const { language } = props;
   const { t } = useTranslation();
-  const [blog, setBlog] = useState(BlogData)
+  const [blog, setBlog] = useState({})
   const [showMoreInfo1,setShowMoreInfo1] = useState(false)
   const [showMoreInfo2,setShowMoreInfo2] = useState(false)
   const [showMoreInfo3,setShowMoreInfo3] = useState(false)
@@ -87,6 +88,16 @@ const Blog = (props) => {
       setShowMoreInfo6(!showMoreInfo6)
     }
   }
+
+  useEffect(() => {
+    if(language == "it"){
+      setBlog(BlogDataItalian)
+    }else if(language == "sq"){
+      setBlog(BlogDataAlbanian)
+    }else{
+      setBlog(BlogData)
+    }
+  },[])
 
 
   return (

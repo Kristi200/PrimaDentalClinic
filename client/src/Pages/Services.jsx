@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useEffect, useState} from 'react'
 import { AboutImg } from '../assets';
 import { ServicesData } from '../data/Services Data/data';
 import { ServicesDataItalian } from '../data/Services Data/data.italian.json';
@@ -7,17 +7,27 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const Services = (props) => {
-  const [categoryData, setCategoryData] = useState(ServicesData);
+  const [categoryData, setCategoryData] = useState({});
   const { setTypeOfService } = props;
   const { t } = useTranslation();
   const {language} = props;
 
-  const searchFunction = (e) => {
+  useEffect(() => {
     if(language == "it"){
+      setCategoryData(ServicesDataItalian)
+    }else if(language == "sq"){
+      setCategoryData(ServicesDataAlbanian)
+    }else{
+      setCategoryData(ServicesData)
+    }
+  },[])
+
+  const searchFunction = (e) => {
+    if(language == "en"){
       if(e.target.value == "all"){
-        setCategoryData(ServicesDataItalian)
+        setCategoryData(ServicesData)
       }else{
-        setCategoryData(ServicesDataItalian.filter((data) => data.category == e.target.value))
+        setCategoryData(ServicesData.filter((data) => data.category == e.target.value))
       }
     }else if(language == "sq"){
       if(e.target.value == "all"){
@@ -27,9 +37,9 @@ const Services = (props) => {
       }
     }else{
       if(e.target.value == "all"){
-        setCategoryData(ServicesData)
+        setCategoryData(ServicesDataItalian)
       }else{
-        setCategoryData(ServicesData.filter((data) => data.category == e.target.value))
+        setCategoryData(ServicesDataItalian.filter((data) => data.category == e.target.value))
       }
     }
   }
