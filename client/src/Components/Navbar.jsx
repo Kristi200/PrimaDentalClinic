@@ -8,7 +8,6 @@ const Navbar = (props) => {
     const { t } = useTranslation();
     const {setLanguage} = props
     const [instagram,setInstagram] = useState(false)
-    const [youtube,setYoutube] = useState(false)
     const [facebook,setFacebook] = useState(false)
     const [whatsapp,setWhatsapp] = useState(false)
     const [menu,setMenu] = useState(true)
@@ -28,10 +27,10 @@ const Navbar = (props) => {
                         <img src={PhoneCallIcon} alt="Phone Icon" />
                         +355 69 972 4951
                     </p></a>
-                    <p className="flex flex-row justify-center gap-2 sm:py-1 md:pl-3 lg:px-7">
+                    <a href="mailto:primadentalclinic2023@gmail.com" onclick="window.location=another.html"><p className="flex flex-row justify-center gap-2 sm:py-1 md:pl-3 lg:px-7">
                         <img src={EmailIcon} alt="Email Icon" />
-                        info@drbiti.com
-                    </p>
+                        primadentalclinic2023@gmail.com
+                    </p></a>
                     <p className="flex flex-row justify-center md:justify-start gap-2 lg:pl-7 md:pt-2 md:col-span-2 ">
                         <img src={Clock} alt="Clock Icon" />
                         {t("week")}: 8:00 am - 8:00 pm
@@ -47,10 +46,9 @@ const Navbar = (props) => {
                         </select>
                     </p>
                     <div className="flex flex-row lg:pl-10 sm:pl-2 md:pl-3 lg:gap-7 sm:gap-3 md:gap-3 child-hover:bg-white child:p-2 child:rounded-full child:duration-300 child-hover:-translate-y-1">
-                        <img src={(!facebook) ? Facebook : FacebookHover} alt="Facebook" onMouseEnter={() => setFacebook(true)} onMouseLeave={() => setFacebook(false)}/>
-                        <img src={(!instagram) ? Instagram : InstagramHover} alt="Instagram" onMouseEnter={() => setInstagram(true)} onMouseLeave={() => setInstagram(false)}/>
+                        <a href="https://www.facebook.com/profile.php?id=100093140397769&mibextid=ZbWKwL" target="_blank" onMouseEnter={() => setFacebook(true)} onMouseLeave={() => setFacebook(false)}><img src={(!facebook) ? Facebook : FacebookHover} alt="Facebook"/></a>
+                        <a href="https://instagram.com/prima_dental_clinic?igshid=NTc4MTIwNjQ2YQ==" target="_blank" onMouseEnter={() => setInstagram(true)} onMouseLeave={() => setInstagram(false)}><img src={(!instagram) ? Instagram : InstagramHover} alt="Instagram" /></a>
                         <a href="https://wa.me/355699724951" target='_blank' onMouseEnter={() => setWhatsapp(true)} onMouseLeave={() => setWhatsapp(false)}><img src={(!whatsapp) ? Whatsapp : WhatsappHover} alt="Whatsapp" /></a>
-                        <img src={(!youtube) ? Youtube : YoutubeHover} alt="Youtube" onMouseEnter={() => setYoutube(true)} onMouseLeave={() => setYoutube(false)}/>
                     </div>
                 </div>
             </div>

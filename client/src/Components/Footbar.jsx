@@ -20,14 +20,14 @@ const Footbar = () => {
                     <img src={Location} alt="Location Icon"/>
                     "Kongresi" neighborhood,
                 </p>
-                <a href="https://wa.me/355699724951" target="_blank"><p className='flex flex-row gap-2 my-4'>
+                <a href="tel:+900300400"><p className='flex flex-row gap-2 my-4'>
                     <img src={Contact} alt='Contact Support'/>
-                    +355 69 769 2979
+                    +355 69 972 4951
                 </p></a>
-                <p className='flex flex-row gap-2'>
+                <a href="mailto:primadentalclinic2023@gmail.com" onclick="window.location=another.html"><p className='flex flex-row gap-2'>
                     <img src={EmailIcon} alt='Email Icon'/>
-                    info@drbiti.com
-                </p>
+                    primadentalclinic2023@gmail.com
+                </p></a>
             </div>
             <div className='child:text-white sm:mt-5 '>
                 <p className='text-2xl font-medium'>{t("footBarTitle2")}</p>

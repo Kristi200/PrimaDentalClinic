@@ -10,7 +10,7 @@ const Contact = (props) => {
   const { t } = useTranslation()
   const [categoryData, setCategoryData] = useState([])
   const [category, setCategory] = useState(false)
-  const [number, setNumber] = useState(false)
+
 
   const categoryFilter = (e) => { 
     console.log(language)

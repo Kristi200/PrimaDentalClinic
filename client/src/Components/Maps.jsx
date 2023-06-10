@@ -1,7 +1,6 @@
 import React from 'react'
 import { useMemo } from 'react'
 import { GoogleMap,useLoadScript,Marker } from '@react-google-maps/api'
-import ScrollAnimation from 'react-animate-on-scroll';
 
 const Maps = () => {
     const { isLoaded } = useLoadScript({
@@ -11,8 +10,8 @@ const Maps = () => {
     
 
     return (
-        <GoogleMap zoom={10} center={{lat: 44,lng: -80}} mapContainerClassName='map-container'>
-            <Marker position={{lat: 44,lng:-80}}/>
+        <GoogleMap zoom={13} center={{lat: 42.0693,lng: 19.5033}} mapContainerClassName='map-container'>
+            <Marker position={{lat: 42.0693,lng:19.5033}}/>
         </GoogleMap>
     )
 }
