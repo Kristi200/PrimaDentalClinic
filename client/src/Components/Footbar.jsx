@@ -20,7 +20,7 @@ const Footbar = () => {
                     <img src={Location} alt="Location Icon"/>
                     "Kongresi" neighborhood,
                 </p>
-                <a href="tel:+900300400"><p className='flex flex-row gap-2 my-4'>
+                <a href="tel:+355699724951"><p className='flex flex-row gap-2 my-4'>
                     <img src={Contact} alt='Contact Support'/>
                     +355 69 972 4951
                 </p></a>
