@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.2",
     "@googlemaps/js-api-loader": "^1.15.2",
     "@react-google-maps/api": "^2.18.1",
     "animate.css": "^4.1.1",
