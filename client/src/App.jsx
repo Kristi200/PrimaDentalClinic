@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar';
 import { useState,useLayoutEffect } from 'react';
 import { Logo, Whatsapp } from './assets/index';
 import Footbar from './Components/Footbar';
-import { Snap,InstagramWhiteIcon,TwiterBorder,ShareIcon,CloseIcon } from './assets/Share Images/index';
+import { InstagramWhiteIcon,TwiterBorder,ShareIcon,CloseIcon,FacebookShareIcon } from './assets/Share Images/index';
 
 function App() {
   const [ loading, setLoading ] = useState(false);
@@ -46,8 +46,8 @@ function App() {
               <Footbar/>
               <div className='child:fixed duration-500 child:cursor-pointer child:rounded-full child:duration-700'>
                 <img src={(!shareIcon) ? ShareIcon : CloseIcon} className='bottom-5 sm:right-3 right-8 p-4 bg-[#002856] hover:bg-[#00ACB1] z-20' onClick={() => setShareIcon(!shareIcon)}/>
-                <img src={InstagramWhiteIcon} className={(shareIcon) ? "bottom-6 sm:right-24 right-32 p-3 insta z-10 hover:scale-110" : "bottom-6 sm:right-3 right-9 p-3 insta z-10"}/>
-                <img src={Snap} className={(shareIcon) ? "bottom-20 sm:right-16 right-24 p-3 bg-[#FFFC00] delay-150 z-10 hover:scale-110" : "bottom-6 sm:right-3 right-9 p-3 bg-[#FFFC00] delay-150 z-10"}/>
+                <a href="https://instagram.com/prima_dental_clinic?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><img src={InstagramWhiteIcon} className={(shareIcon) ? "cursor-pointer bottom-6 sm:right-24 right-32 p-3 insta z-10 hover:scale-110 fixed rounded-full duration-700" : "duration-700 fixed cursor-pointer bottom-6 sm:right-3 right-9 p-3 insta z-10 rounded-full"}/></a>
+                <a href="https://www.facebook.com/profile.php?id=100093140397769&mibextid=ZbWKwL" target="_blank"><img src={FacebookShareIcon} className={(shareIcon) ? "cursor-pointer fixed bottom-20 sm:right-16 right-24 p-3 bg-[#365194] delay-200 z-10 hover:scale-110 rounded-full duration-700" : "duration-700 delay-200 fixed cursor-pointer bottom-6 sm:right-3 right-9 p-3 z-10 rounded-full"}/></a>
                 <img src={TwiterBorder} className={(shareIcon) ? "bottom-28 sm:right-3 right-9 p-3 bg-[#00acee] delay-300 z-10 hover:scale-110" : "bottom-6 sm:right-3 right-9 p-3 bg-[#00acee] delay-300 z-10"}/>
               </div>
               <a href="https://wa.me/355699724951" target='_blank'><img src={Whatsapp} alt="Whatsapp" width={50} className='fixed sm:left-3 left-8 bottom-6 p-2 cursor-pointer bg-[#25D366] rounded-full delay-100 z-10 hover:scale-110 duration-300'/></a>

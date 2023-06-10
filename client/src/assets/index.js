@@ -85,6 +85,7 @@ export { default as TeethIcon} from './Icons/teeth.svg';
 export { default as CheckUpIcon} from './Icons/checkUp.svg';
 export { default as Implant} from './Icons/implant.svg';
 
+
 // Gallery
 export { default as Gallery1 } from './Gallery/saranda.jpg';
 export { default as Gallery2 } from './Gallery/vlora.jpg';
