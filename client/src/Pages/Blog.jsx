@@ -138,7 +138,7 @@ const Blog = (props) => {
       </div>
       {/* Third Section */}
       <ScrollAnimation className='flex sm:flex-col md:flex-col lg:flex-row justify-center lg:py-20 gap-6 sm:px-5 md:px-10 lg:px-28' animateIn='fadeInTop'>
-        <img src={BlogInfoImage} height={600} alt="Blog More Info Image" className='object-center h-[500px]'/>
+        <img src={BlogInfoImage} height={600} alt="Blog More Info Image" className='object-center sm:h-[300px] h-[500px]'/>
         <div className='flex flex-col gap-3'>
           <p className='text-[#00ACB1] font-bold'>{t("blogPage")}</p>
           <p className='text-4xl font-bold text-[#002856]'>{t("blogPageTitle")}</p>

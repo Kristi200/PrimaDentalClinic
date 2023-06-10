@@ -129,8 +129,8 @@ const Home = (props) => {
       <Services/>
       {/* Drop Downs */}
       <div className="flex justify-center sm:flex-col md:flex-col lg:flex-row   w-full sm:my-12 md:my-24 lg:my-64">
-        <ScrollAnimation className="lg:absolute sm:px-3 md:px-16 sm:w-full md:w-full sm:flex md:flex sm:justify-center md:justify-center sm:h-[500px] md:h-[600px] sm:pb-6 md:pb-10" animateIn="fadeInRight">
-          <img src={BackgroundImage} alt="Background Image" className="lg:w-4/5 sm:object-none md:object-cover sm:object-top md:object-center sm:h-full md:h-full sm:w-full md:w-full lg:relative blur-[1px] lg:left-96 lg:bottom-40 lg:z-[-5]"/>
+        <ScrollAnimation className="lg:absolute sm:px-3 md:px-16 sm:w-full md:w-full sm:flex md:flex sm:justify-center md:justify-center  md:h-[600px] sm:pb-10 md:pb-10" animateIn="fadeInRight">
+          <img src={BackgroundImage} alt="Background Image" className="lg:w-4/5 md:object-cover sm:object-cover md:object-center sm:h-[350px] md:h-full sm:w-full md:w-full lg:relative blur-[1px] lg:left-96 lg:bottom-40 lg:z-[-5]"/>
         </ScrollAnimation>
         <ScrollAnimation className="flex flex-col sm:px-3 md:px-16 lg:-ml-72" animateIn="fadeInLeft">
           <p className="text-[#00ACB1] sm:text-sm font-bold">{t("dropDowns")}</p>
