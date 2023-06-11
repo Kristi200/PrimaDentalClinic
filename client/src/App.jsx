@@ -44,12 +44,7 @@ function App() {
                 <Route path="/free-quote" element={<ContactPage/>}/>
               </Routes>
               <Footbar/>
-              <div className='child:fixed duration-500 child:cursor-pointer child:rounded-full child:duration-700'>
-                <img src={(!shareIcon) ? ShareIcon : CloseIcon} width={50} className='bottom-5 sm:left-3 left-8 p-3 bg-[#002856] hover:bg-[#00ACB1] z-50' onClick={() => setShareIcon(!shareIcon)}/>
-                <a href="https://instagram.com/prima_dental_clinic?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><img src={InstagramWhiteIcon} width={50} className={(shareIcon) ? "cursor-pointer insta fixed sm:bottom-20 bottom-5 sm:left-3 left-28 rounded-full p-3 hover:scale-110 duration-700 z-20" : "insta fixed bottom-5 sm:left-3 left-8 rounded-full p-3 duration-700 z-20"}/></a>
-                <a href="https://www.facebook.com/profile.php?id=100093140397769&mibextid=ZbWKwL" target="_blank"><img src={FacebookShareIcon} width={50} className={(shareIcon) ? "cursor-pointer bg-[#365194] fixed sm:bottom-36 bottom-20 sm:left-3 left-20 rounded-full p-3 hover:scale-110 duration-700 delay-150 z-20" : "bg-[#365194] fixed bottom-5 sm:left-3 left-8 rounded-full p-3 duration-700 delay-150 z-20"}/></a>
-                <a href="https://wa.me/355699724951" target='_blank'><img src={Whatsapp} alt="Whatsapp" width={50} className={(shareIcon) ? 'cursor-pointer bg-[#25D366] rounded-full fixed sm:bottom-52 bottom-28 sm:left-3 left-8 p-3 hover:scale-110 duration-700 delay-300 z-20' : "bg-[#25D366] fixed bottom-5 sm:left-3 left-8 rounded-full p-3 duration-700 delay-300 z-20"}/></a>
-              </div>
+              <a href="https://wa.me/355699724951" target='_blank'><img src={Whatsapp} alt="Whatsapp" width={60} className="hover:scale-110 duration-500 cursor-pointer bg-[#25D366] rounded-full fixed bottom-5 z-50 left-6 p-2" /></a>
             </div>
         }
     </div>

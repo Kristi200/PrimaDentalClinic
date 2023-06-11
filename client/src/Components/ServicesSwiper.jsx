@@ -1,10 +1,11 @@
 import React from 'react'
 import {Swiper,SwiperSlide} from 'swiper/react';
 import { ServicesImage1,ServicesImage2,ServicesImage4,ServicesImage5, SurgeryIcon, GeneralIcon, CosmeticIcon, AeshteticIcon } from '../assets';
-import 'swiper/css';
 import { Link } from 'react-router-dom';
+import { Navigation } from "swiper";
 import ScrollAnimation from 'react-animate-on-scroll';
-import { useTranslation,Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
+import "swiper/css/navigation";
 
 const ServicesSwiper = () => {
   const { t } = useTranslation();
@@ -19,8 +20,10 @@ const ServicesSwiper = () => {
           </p>
         </div>
         <Swiper
+          modules={[Navigation]}
           spaceBetween={20}
           slidesPerView={1}
+          navigation={true}
           speed="1000"
           loop={true}
           breakpoints={{

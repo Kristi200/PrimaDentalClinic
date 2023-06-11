@@ -76,7 +76,7 @@ const Services = (props) => {
                   <div className='overflow-hidden'>
                     <img src={data.coverImage} alt="Image 2" className='w-[490px] h-52  object-fill  group-hover:scale-110 duration-300 group-hover:rotate-2'/>
                   </div>
-                  <img src={data.icon} width={70} className='relative bottom-9 left-5 z-10 p-3 rounded-full bg-white shadow shadow-neutral-500 group-hover:bg-[#00ACB1] border-8 border-white duration-500 '/>
+                  <img src={data.icon} width={70} className={`relative bottom-9 left-5 z-10  p-${data.iconPadding} rounded-full bg-white shadow shadow-neutral-500 group-hover:bg-[#00ACB1] border-8 border-white duration-500`}/>
                   <div className='p-5  border-r-2 border-slate-100 border-b-2 -mt-10 '>
                     <Link to={`/services/${data.id}`} onClick={() => setTypeOfService(data)}><p className='text-[#002856] text-2xl font-bold pb-5 hover:text-[#00ACB1]'>{data.title}</p></Link>
                     <p className='text-sm  text-neutral-500 truncate'>{data.subDescription}</p>

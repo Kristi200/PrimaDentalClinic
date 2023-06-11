@@ -4,6 +4,8 @@ import { GalleryImage1,GalleryImage2,GalleryImage3,GalleryImage4, GalleryImage5 
 import 'swiper/css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { useTranslation } from 'react-i18next';
+import { Navigation } from 'swiper';
+import "swiper/css/navigation";
 
 const GallerySwiper = () => {
   const { t } = useTranslation();
@@ -16,6 +18,8 @@ const GallerySwiper = () => {
             {t("ourGalleryTitle")} {t("ourGalleryTitle2")}
         </p>
         <Swiper
+          modules={[Navigation]}
+          navigation={true}
           spaceBetween={20}
           slidesPerView={1}
           speed="1000"

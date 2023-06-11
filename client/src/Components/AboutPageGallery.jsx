@@ -3,6 +3,9 @@ import { AboutGalleryImage1,GalleryAboutImage1, GalleryAboutImage2, GalleryAbout
 import {Swiper,SwiperSlide} from 'swiper/react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Trans, useTranslation } from 'react-i18next';
+import { Navigation } from "swiper";
+import "swiper/css/navigation";
+
 
 const AboutPageGallery = () => {
     const { t } = useTranslation()
@@ -15,6 +18,8 @@ const AboutPageGallery = () => {
                     <Trans components={{ br: <br className='sm:hidden'/> }}>{t("aboutGalleryTitle")}</Trans>
                 </p>
                 <Swiper
+                    modules={[Navigation]}
+                    navigation={true}
                     spaceBetween={20}
                     slidesPerView={1}
                     speed="1000"

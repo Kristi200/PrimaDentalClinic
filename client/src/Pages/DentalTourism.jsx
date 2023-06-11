@@ -6,7 +6,7 @@ import { Trans, useTranslation } from "react-i18next"
 
 const DentalTourism = () => {
   const { t } = useTranslation()
-  const [button1, setButton1] = useState(false)
+  const [button1, setButton1] = useState(true)
   const [button2, setButton2] = useState(false)
   const [button3, setButton3] = useState(false)
   const [button4, setButton4] = useState(false)

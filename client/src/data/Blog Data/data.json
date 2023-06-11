@@ -12,7 +12,7 @@
             "image2": "/images/Service Images/implantology.jpg",
             "image3": "/images/Service Images/implantology.jpg",
             "image4": "/images/Service Images/implantology.jpg",
-            "icon": "/images/Service Images/surgery-icon.png",
+            "icon": "/images/Service Image Icons/implantology-icon.svg",
             "category": "surgery"
         },
         {
@@ -27,7 +27,7 @@
             "image2": "/images/Service Images/PedodonticsImage2.jpeg",
             "image3": "/images/Service Images/PedodonticsImage1.jpeg",
             "image4": "/images/Service Images/PedodonticsImage2.jpeg",
-            "icon": "/images/Service Images/general-dentistry-icon.png",
+            "icon": "/images/Service Image Icons/pedodontic-icon.svg",
             "category": "general-dentistry"
         },
         {
@@ -42,7 +42,7 @@
             "image2": "/images/Service Images/hollywood-smile2.jpg",
             "image3": "/images/Service Images/hollywood-smile3.jpeg",
             "image4": "/images/Service Images/hollywood-smile4.jpg",
-            "icon": "/images/Service Images/cosmetic-dentistry-icon.png",
+            "icon": "/images/Service Image Icons/hollywoodSmile-icon.svg",
             "category": "cosmetic-dentistry"
         },
         {
@@ -57,7 +57,7 @@
             "image2": "/images/Service Images/Dermal-Fillers2.jpg",
             "image3": "/images/Service Images/Dermal-Fillers.jpg",
             "image4": "/images/Service Images/Dermal-Fillers2.jpg",
-            "icon": "/images/Service Images/Aesthetic-Dentistry-icon.png",
+            "icon": "/images/Service Image Icons/microneedling-icon.svg",
             "category": "aesthetic-medicine"
         }
     ]

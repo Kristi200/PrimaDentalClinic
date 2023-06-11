@@ -12,7 +12,7 @@
             "image2": "/images/Service Images/implantology.jpg",
             "image3": "/images/Service Images/implantology.jpg",
             "image4": "/images/Service Images/implantology.jpg",
-            "icon": "/images/Service Images/surgery-icon.png",
+            "icon": "/images/Service Image Icons/implantology-icon.svg",
             "category": "surgery"
         },
         {
@@ -27,7 +27,7 @@
             "image2": "/images/Service Images/kirurgjia orale.jpg",
             "image3": "/images/Service Images/kirurgjia orale.jpg",
             "image4": "/images/Service Images/kirurgjia orale.jpg",
-            "icon": "/images/Service Images/surgery-icon.png",
+            "icon": "/images/Service Image Icons/maxillofacial-icon.svg",
             "category": "surgery"
         },
         {
@@ -39,7 +39,8 @@
             "image2": "/images/Service Images/bichectomy.jpg",
             "image3": "/images/Service Images/bichectomy.jpg",
             "image4": "/images/Service Images/bichectomy.jpg",
-            "icon": "/images/Service Images/surgery-icon.png",
+            "icon": "/images/Service Image Icons/buchal-icon.svg",
+            "iconPadding": "3",
             "category": "surgery"
         },
         {
@@ -51,7 +52,8 @@
             "image2": "/images/Service Images/UpperLipLift.jpeg",
             "image3": "/images/Service Images/UpperLipLift.jpeg",
             "image4": "/images/Service Images/UpperLipLift.jpeg",
-            "icon": "/images/Service Images/surgery-icon.png",
+            "icon": "/images/Service Image Icons/lipLift.svg.svg",
+            "iconPadding": "1",
             "category": "surgery"
         },
         {
@@ -63,7 +65,8 @@
             "image2": "/images/Service Images/ConservativeDentistryImage2.jpeg",
             "image3": "/images/Service Images/ConservativeDentistryImage2.jpeg",
             "image4": "/images/Service Images/ConservativeDentistryImage2.jpeg",
-            "icon": "/images/Service Images/general-dentistry-icon.png",
+            "icon": "/images/Service Image Icons/conservative-icon.svg",
+            "iconPadding": "1",
             "category": "general-dentistry"
         },
         {
@@ -75,7 +78,8 @@
             "image2": "/images/Service Images/sedationImage2.jpeg",
             "image3": "/images/Service Images/sedationImage1.jpg",
             "image4": "/images/Service Images/sedationImage2.jpeg",
-            "icon": "/images/Service Images/general-dentistry-icon.png",
+            "icon": "/images/Service Image Icons/sedacion-icon.svg",
+            "iconPadding": "1",
             "category": "general-dentistry"
         },
         {
@@ -88,7 +92,8 @@
             "image2": "/images/Service Images/endodonti3.jpeg",
             "image3": "/images/Service Images/endodonti2.jpeg",
             "image4": "/images/Service Images/endodonti3.jpeg",
-            "icon": "/images/Service Images/general-dentistry-icon.png",
+            "icon": "/images/Service Image Icons/endodontic-icon.svg",
+            "iconPadding": "1",
             "category": "general-dentistry"
         },
         {
@@ -101,7 +106,8 @@
             "image2": "/images/Service Images/endodonti3.jpeg",
             "image3": "/images/Service Images/endodonti2.jpeg",
             "image4": "/images/Service Images/endodonti3.jpeg",
-            "icon": "/images/Service Images/general-dentistry-icon.png",
+            "icon": "/images/Service Image Icons/periodontic-icon.svg",
+            "iconPadding": "1",
             "category": "general-dentistry"
         },
         {
@@ -116,7 +122,8 @@
             "image2": "/images/Service Images/PedodonticsImage2.jpeg",
             "image3": "/images/Service Images/PedodonticsImage1.jpeg",
             "image4": "/images/Service Images/PedodonticsImage2.jpeg",
-            "icon": "/images/Service Images/general-dentistry-icon.png",
+            "icon": "/images/Service Image Icons/pedodontic-icon.svg",
+            "iconPadding": "1",
             "category": "general-dentistry"
         },
         {
@@ -131,7 +138,8 @@
             "image2": "/images/Service Images/radiology.jpg",
             "image3": "/images/Service Images/radiology.jpg",
             "image4": "/images/Service Images/radiology.jpg",
-            "icon": "/images/Service Images/general-dentistry-icon.png",
+            "icon": "/images/Service Image Icons/radiology-icon.svg",
+            "iconPadding": "1",
             "category": "general-dentistry"
         },
         {
@@ -146,7 +154,8 @@
             "image2": "/images/Service Images/Aesthetic-Dentistry2.jpeg",
             "image3": "/images/Service Images/Aesthetic-Dentistry3.jpeg",
             "image4": "/images/Service Images/Aesthetic-Dentistry4.jpeg",
-            "icon": "/images/Service Images/cosmetic-dentistry-icon.png",
+            "icon": "/images/Service Image Icons/aestheticDentistry-icon.svg",
+            "iconPadding": "1",
             "category": "cosmetic-dentistry"
         },
         {
@@ -161,7 +170,8 @@
             "image2": "/images/Service Images/hollywood-smile2.jpg",
             "image3": "/images/Service Images/hollywood-smile3.jpeg",
             "image4": "/images/Service Images/hollywood-smile4.jpg",
-            "icon": "/images/Service Images/cosmetic-dentistry-icon.png",
+            "icon": "/images/Service Image Icons/hollywoodSmile-icon.svg",
+            "iconPadding": "1",
             "category": "cosmetic-dentistry"
         },
         {
@@ -176,7 +186,8 @@
             "image2": "/images/Service Images/dental-prosthetics2.jpg",
             "image3": "/images/Service Images/dental-prosthetics.jpeg",
             "image4": "/images/Service Images/dental-prosthetics2.jpg",
-            "icon": "/images/Service Images/cosmetic-dentistry-icon.png",
+            "icon": "/images/Service Image Icons/dentalProsthetics-icon.svg",
+            "iconPadding": "1",
             "category": "cosmetic-dentistry"
         },
         {
@@ -190,7 +201,8 @@
             "image2": "/images/Service Images/dental-prosthetics2.jpg",
             "image3": "/images/Service Images/dental-prosthetics.jpeg",
             "image4": "/images/Service Images/dental-prosthetics2.jpg",
-            "icon": "/images/Service Images/cosmetic-dentistry-icon.png",
+            "icon": "/images/Service Image Icons/orthodontics-icon.svg",
+            "iconPadding": "1",
             "category": "cosmetic-dentistry"
         },
         {
@@ -204,7 +216,8 @@
             "image2": "/images/Service Images/Dermal-Fillers2.jpg",
             "image3": "/images/Service Images/dermal-fillers.jpg",
             "image4": "/images/Service Images/Dermal-Fillers2.jpg",
-            "icon": "/images/Service Images/Aesthetic-Dentistry-icon.png",
+            "icon": "/images/Service Image Icons/dermaFiller-icon.svg",
+            "iconPadding": "1",
             "category": "aesthetic-medicine"
         },
         {
@@ -216,7 +229,8 @@
             "image2": "/images/Service Images/Dermal-Fillers2.jpg",
             "image3": "/images/Service Images/Dermal-Fillers.jpg",
             "image4": "/images/Service Images/Dermal-Fillers2.jpg",
-            "icon": "/images/Service Images/Aesthetic-Dentistry-icon.png",
+            "icon": "/images/Service Image Icons/botox-icon.svg",
+            "iconPadding": "1",
             "category": "aesthetic-medicine"
         },
         {
@@ -231,7 +245,8 @@
             "image2": "/images/Service Images/Dermal-Fillers2.jpg",
             "image3": "/images/Service Images/Dermal-Fillers.jpg",
             "image4": "/images/Service Images/Dermal-Fillers2.jpg",
-            "icon": "/images/Service Images/Aesthetic-Dentistry-icon.png",
+            "icon": "/images/Service Image Icons/microneedling-icon.svg",
+            "iconPadding": "1",
             "category": "aesthetic-medicine"
         },  
         {
@@ -243,7 +258,8 @@
             "image2": "/images/Service Images/Dermal-Fillers2.jpg",
             "image3": "/images/Service Images/Dermal-Fillers.jpg",
             "image4": "/images/Service Images/Dermal-Fillers2.jpg",
-            "icon": "/images/Service Images/Aesthetic-Dentistry-icon.png",
+            "icon": "/images/Service Image Icons/mesotherapy-icon.svg",
+            "iconPadding": "1",
             "category": "aesthetic-medicine"
         },
         {
@@ -257,7 +273,8 @@
             "image2": "/images/Service Images/Dermal-Fillers.jpg",
             "image3": "/images/Service Images/Dermal-Fillers2.jpg",
             "image4": "/images/Service Images/cgf&prf.jpg",
-            "icon": "/images/Service Images/Aesthetic-Dentistry-icon.png",
+            "icon": "/images/Service Image Icons/cgf&Prf-icon.svg",
+            "iconPadding": "1",
             "category": "aesthetic-medicine"
         },
         {
@@ -272,7 +289,8 @@
             "image2": "/images/Service Images/Dermal-Fillers.jpg",
             "image3": "/images/Service Images/pdo-lifting-threads.jpg",
             "image4": "/images/Service Images/Dermal-Fillers.jpg",
-            "icon": "/images/Service Images/Aesthetic-Dentistry-icon.png",
+            "icon": "/images/Service Image Icons/threadLifting-icon.svg",
+            "iconPadding": "3",
             "category": "aesthetic-medicine"
         },
         {
@@ -287,7 +305,8 @@
             "image2": "/images/Service Images/plasmapen 1.jpg",
             "image3": "/images/Service Images/plasmapen 1.jpg",
             "image4": "/images/Service Images/plasmapen 1.jpg",
-            "icon": "/images/Service Images/Aesthetic-Dentistry-icon.png",
+            "icon": "/images/Service Image Icons/plasmapen-icon.svg",
+            "iconPadding": "1",
             "category": "aesthetic-medicine"
         }
     ]

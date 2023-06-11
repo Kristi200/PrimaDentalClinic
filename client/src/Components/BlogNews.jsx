@@ -4,6 +4,9 @@ import { Swiper,SwiperSlide } from "swiper/react";
 import { Link } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 import { useTranslation } from "react-i18next";
+import "swiper/css/navigation";
+import { Navigation } from "swiper";
+
 const BlogNews = () => {
     const { t } = useTranslation();
 
@@ -17,18 +20,20 @@ const BlogNews = () => {
                     </p>
                 </div>
                 <Swiper
-                spaceBetween={20}
-                slidesPerView={1}
-                speed="1000"
-                loop={true}
-                breakpoints={{
-                    767:{
-                        slidesPerView: 2,
-                    },
-                    992: {
-                        slidesPerView: 3
-                    }
-                }}
+                    modules={[Navigation]}
+                    navigation={true}
+                    spaceBetween={20}
+                    slidesPerView={1}
+                    speed="1000"
+                    loop={true}
+                    breakpoints={{
+                        767:{
+                            slidesPerView: 2,
+                        },
+                        992: {
+                            slidesPerView: 3
+                        }
+                    }}
                 >
                     <SwiperSlide>
                         <div className='border-r-2 border-slate-100 border-b-2 group '>
