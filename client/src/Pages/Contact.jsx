@@ -40,7 +40,7 @@ const Contact = (props) => {
             {/* Email Field */}
             <input type='email' placeholder={t("formEmail")} name="Email" onChange={(e) => emailValidation(e)} className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required/>
             {/* Date Field */}
-            <input type='text' placeholder={t("formDate")} name="Date" onFocus={(e) => (e.target.type = 'date')} onBlur={(e) => (e.target.type = 'text')} className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required/>
+            <input type='text' placeholder="yyyy-mm-dd" name="Date" onFocus={(e) => (e.target.type = 'date')} onBlur={(e) => (e.target.type = 'text')} className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required/>
             {/* Time Field */}
             <input type='text' placeholder={t("formTime")} name="Time" onFocus={(e) => (e.target.type = 'time')} onBlur={(e) => (e.target.type = 'text')} className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required/>
             {/* Category Field */}

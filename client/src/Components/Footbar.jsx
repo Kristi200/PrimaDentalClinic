@@ -45,7 +45,7 @@ const Footbar = () => {
                 <p className='text-2xl font-medium'>{t("footBarTitle3")}</p>
                 <div className='border-b w-16 border-[#00ACB1] border-[1px] mt-6'></div>
                 <ol className='child:mt-3 mt-6 list-disc list-inside child-hover:text-[#00ACB1]'>
-                    <li>{t("footBarPrivacy")}</li>
+                    <li><Link to="/privacy-policy">{t("footBarPrivacy")}</Link></li>
                     <li>{t("footBarTerms")}</li>
                 </ol>
             </div>
