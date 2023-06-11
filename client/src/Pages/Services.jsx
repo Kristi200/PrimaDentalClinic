@@ -20,7 +20,7 @@ const Services = (props) => {
     }else{
       setCategoryData(ServicesData)
     }
-  },[])
+  },[language])
 
   const searchFunction = (e) => {
     if(language == "en"){

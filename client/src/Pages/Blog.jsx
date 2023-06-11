@@ -97,7 +97,7 @@ const Blog = (props) => {
     }else{
       setBlog(BlogData)
     }
-  },[])
+  },[language])
 
 
   return (
