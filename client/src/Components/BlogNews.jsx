@@ -45,7 +45,7 @@ const BlogNews = () => {
                                     <Link to="/blogs"><p className='text-2xl text-[#002856] font-bold pb-3 tracking-wider'>{t("blogNewsDescription1")}</p></Link>
                                     <div className="flex flex-row  gap-2 text-center mt-3">
                                         <img src={Calendar} alt="Calendar Icon"/>
-                                        <p className="text-base tracking-wider text-neutral-500">__/__/2023 18:02</p>
+                                        <p className="text-base tracking-wider text-neutral-500">06/13/2023 18:02</p>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ const BlogNews = () => {
                                     <Link to="/blogs"><p className='text-2xl text-[#002856] font-bold pb-3 tracking-wider'>{t("blogNewsDescription2")}</p></Link>
                                     <div className="flex flex-row  gap-2 text-center mt-3">
                                         <img src={Calendar} alt="Calendar Icon"/>
-                                        <p className="text-base tracking-wider text-neutral-500">__/__/2023 18:05</p>
+                                        <p className="text-base tracking-wider text-neutral-500">06/13/2023 18:05</p>
                                     </div>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@ const BlogNews = () => {
                                     <Link to="/blogs"><p className='text-2xl text-[#002856] font-bold pb-3 tracking-wider'>{t("blogNewsDescription3")}</p></Link>
                                     <div className="flex flex-row  gap-2 text-center mt-3">
                                         <img src={Calendar} alt="Calendar Icon"/>
-                                        <p className="text-base tracking-wider text-neutral-500">01/06/2022 18:02</p>
+                                        <p className="text-base tracking-wider text-neutral-500">06/13/2022 18:02</p>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@ const BlogNews = () => {
                                     <Link to="/blogs"><p className='text-2xl text-[#002856] font-bold pb-3 tracking-wider'>{t("blogNewsDescription1")}</p></Link>
                                     <div className="flex flex-row  gap-2 text-center mt-3">
                                         <img src={Calendar} alt="Calendar Icon"/>
-                                        <p className="text-base tracking-wider text-neutral-500">__/__/2023 18:02</p>
+                                        <p className="text-base tracking-wider text-neutral-500">06/13/2023 18:02</p>
                                     </div>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ const BlogNews = () => {
                                     <Link to="/blogs"><p className='text-2xl text-[#002856] font-bold pb-3 tracking-wider'>{t("blogNewsDescription2")}</p></Link>
                                     <div className="flex flex-row  gap-2 text-center mt-3">
                                         <img src={Calendar} alt="Calendar Icon"/>
-                                        <p className="text-base tracking-wider text-neutral-500">__/__/2023 18:05</p>
+                                        <p className="text-base tracking-wider text-neutral-500">06/13/2023 18:05</p>
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@ const BlogNews = () => {
                                     <Link to="/blogs"><p className='text-2xl text-[#002856] font-bold pb-3 tracking-wider'>{t("blogNewsDescription3")}</p></Link>
                                     <div className="flex flex-row  gap-2 text-center mt-3">
                                         <img src={Calendar} alt="Calendar Icon"/>
-                                        <p className="text-base tracking-wider text-neutral-500">01/06/2022 18:02</p>
+                                        <p className="text-base tracking-wider text-neutral-500">06/13/2022 18:02</p>
                                     </div>
                                 </div>
                             </div>
