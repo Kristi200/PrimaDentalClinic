@@ -36,18 +36,18 @@ const Contact = (props) => {
           <p className="text-2xl font-bold">{t("formTitle")}</p>
           <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-5  '>
             {/* Full Name Field */}
-            <input type='text' placeholder={t("formName")} name='Full Name' onChange={(e) => nameValidation(e)} className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required/>
+            <input type='text' placeholder={t("formName")} name='Emri Mbiemri' onChange={(e) => nameValidation(e)} className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required/>
             {/* Email Field */}
-            <input type='email' placeholder={t("formEmail")} name="Email" onChange={(e) => emailValidation(e)} className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required/>
+            <input type='email' placeholder={t("formEmail")} name="Adresa Emailit" onChange={(e) => emailValidation(e)} className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required/>
             {/* Date Field */}
-            <input type='text' placeholder="yyyy-mm-dd" name="Date" onFocus={(e) => (e.target.type = 'date')} onBlur={(e) => (e.target.type = 'text')} className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required/>
+            <input type='text' placeholder="yyyy-mm-dd" name="Data e Takimit" onFocus={(e) => (e.target.type = 'date')} onBlur={(e) => (e.target.type = 'text')} className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required/>
             {/* Time Field */}
-            <input type='text' placeholder={t("formTime")} name="Time" onFocus={(e) => (e.target.type = 'time')} onBlur={(e) => (e.target.type = 'text')} className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required/>
+            <input type='text' placeholder={t("formTime")} name="Orari Takimit" onFocus={(e) => (e.target.type = 'time')} onBlur={(e) => (e.target.type = 'text')} className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required/>
             {/* Category Field */}
             <select onChange={(e) => {
               categoryFilter(e)
               setCategory(e)
-              }} name="Category" className='bg-transparent border-slate-500 border rounded-md pl-3 py-3'required>
+              }} name="Kategoria" className='bg-transparent border-slate-500 border rounded-md pl-3 py-3'required>
             {
               (language == "it")
               ? Array.from(SubCategorysItalian).map(data => (
@@ -59,7 +59,7 @@ const Contact = (props) => {
             }
             </select>
             {/* Service Field */}
-            <select name="Service" className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required>
+            <select name="Sherbimi" className='bg-transparent border-slate-500 border rounded-md pl-3 py-3' required>
               {
                 Array.from(categoryData).map(data => (
                   <option className='text-neutral-500' key={data} value={data}>{data}</option>
@@ -68,8 +68,8 @@ const Contact = (props) => {
             </select>
           </div>
           <div className='flex flex-col child:mb-5'>
-            <input type='tel' name="Phone Number" placeholder={t("formNumber")} onChange={(e) => numberValidation(e)} className='py-3 pl-3 bg-transparent rounded-md border' width={'20px'} required/>
-            <textarea placeholder={t("formMessage")} name="Message" rows={4} className='pl-3 py-3 bg-transparent border mb-5 rounded-md border-slate-500'/>
+            <input type='Numri Telefonit' name="Phone Number" placeholder={t("formNumber")} onChange={(e) => numberValidation(e)} className='py-3 pl-3 bg-transparent rounded-md border' width={'20px'} required/>
+            <textarea placeholder={t("formMessage")} name="Mesazhi " rows={4} className='pl-3 py-3 bg-transparent border mb-5 rounded-md border-slate-500'/>
           <button type='submit' className='h-16 bg-[#00ACB1] border-none hover:bg-white hover:text-black duration-300'>Book Appointment</button>
           </div>
         </div>
