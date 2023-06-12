@@ -12,9 +12,9 @@ const PrivacyPolicyPage = () => {
             {/* First Section */}
             <div className="flex flex-row justify-between sm:px-5 md:px-10 lg:px-28 py-10 items-center">
                 <div className="flex flex-col gap-3">
-                    <p className="font-bold text-4xl text-[#002856]">{t("termsConditions")}</p>
+                    <p className="font-bold text-4xl text-[#002856]">{t("privacyPolicy")}</p>
                     <p className="font-medium text-[#002856]">
-                        <Link to="/">Home</Link> - <span className="text-[#00ACB1]">{t("termsConditions")}</span>
+                        <Link to="/">Home</Link> - <span className="text-[#00ACB1]">{t("privacyPolicy")}</span>
                     </p>
                 </div>
                 <img

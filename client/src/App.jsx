@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import { useState,useLayoutEffect } from 'react';
 import { Logo, Whatsapp } from './assets/index';
 import Footbar from './Components/Footbar';
+import TermsAndConditions from './Pages/TermsAndConditions';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
                 <Route path="/services/:serviceType" element={<ServiceTypes typeOfService={typeOfService}/>}/>
                 <Route path="/free-quote" element={<ContactPage/>}/>
                 <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
+                <Route path="/terms-and-conditions" element={<TermsAndConditions/>}/>
               </Routes>
               <Footbar/>
               <a href="https://wa.me/355699724951" target='_blank'><img src={Whatsapp} alt="Whatsapp" width={60} className="hover:scale-110 duration-500 cursor-pointer bg-[#25D366] rounded-full fixed bottom-5 z-50 left-6 p-2" /></a>
