@@ -39,9 +39,9 @@ const ServicesSwiper = () => {
           <SwiperSlide>
             <div className='border-r-2 border-slate-100 border-b-2 group'>
               <div className='h-fill w-fill top-96 bottom-[25%] left-0 right-0  linearBlue z-[10] absolute group-hover:top-20 duration-300'>.</div>
-              <img src={ImplantologjiIcon} alt="Image 1" draggable="false"/>
+              <img src={ServicesImage4} alt="Image 1" draggable="false"/>
               <div className='border-r-2 border-slate-100 border-b-2 z-[20]'>
-                <img src={SurgeryIcon} alt='Tooth Icon' width={70} className='absolute z-10 left-6 bottom-20 p-3 rounded-full bg-white shadow shadow-neutral-500 group-hover:bg-[#00ACB1] border-8 border-white duration-300'/>
+                <img src={ImplantologjiIcon} alt='Tooth Icon' width={70} className='absolute z-10 left-6 bottom-20 p-1 rounded-full bg-white shadow shadow-neutral-500 group-hover:bg-[#00ACB1] border-8 border-white duration-300'/>
                 <p className='py-10 pl-10 text-2xl text-[#002856] font-bold'>{t("servicesButton2")}</p>
               </div>
             </div>
