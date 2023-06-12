@@ -18,7 +18,7 @@ const Footbar = () => {
                 <div className='border-b w-16 border-[#00ACB1] border-[1px] mt-6'></div>
                 <p className='flex flex-row gap-2 mt-8'>
                     <img src={Location} alt="Location Icon"/>
-                    "Kongresi" neighborhood,
+                    "Lushnjë"
                 </p>
                 <a href="tel:+355699724951"><p className='flex flex-row gap-2 my-4'>
                     <img src={Contact} alt='Contact Support'/>

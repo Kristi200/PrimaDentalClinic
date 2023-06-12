@@ -1,6 +1,6 @@
 import React from 'react'
 import {Swiper,SwiperSlide} from 'swiper/react';
-import { ServicesImage1,ServicesImage2,ServicesImage4,ServicesImage5, SurgeryIcon, GeneralIcon, CosmeticIcon, AeshteticIcon, ImplantologjiIcon } from '../assets';
+import { ServicesImage1,ServicesImage2,ServicesImage4,ServicesImage5, SurgeryIcon, GeneralIcon, CosmeticIcon, AeshteticIcon, ImplantologjiIcon, ConservativeIcon } from '../assets';
 import { Link } from 'react-router-dom';
 import { Navigation } from "swiper";
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -52,7 +52,7 @@ const ServicesSwiper = () => {
               <div className='h-fill w-fill top-96 bottom-[25%] left-0 right-0  linearBlue z-[10] absolute group-hover:top-20 duration-300'>.</div>
               <img src={ServicesImage2} alt="Image 2" draggable="false"/>
               <div className='border-r-2 border-slate-100 border-b-2 z-[20]'>
-                <img src={GeneralIcon} alt='Tooth Icon' width={70} className='absolute z-10 left-6 bottom-20 p-3 rounded-full bg-white shadow shadow-neutral-500 group-hover:bg-[#00ACB1] border-8 border-white duration-300'/>
+                <img src={ConservativeIcon} alt='Tooth Icon' width={70} className='absolute z-10 left-6 bottom-20 p-3 rounded-full bg-white shadow shadow-neutral-500 group-hover:bg-[#00ACB1] border-8 border-white duration-300'/>
                 <p className='py-10 pl-10 text-2xl text-[#002856] font-bold'>{t("servicesButton3")}</p>
               </div>
             </div>

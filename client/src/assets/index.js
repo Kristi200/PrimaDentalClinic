@@ -85,6 +85,7 @@ export { default as TeethIcon} from './Icons/teeth.svg';
 export { default as CheckUpIcon} from './Icons/checkUp.svg';
 export { default as Implant} from './Icons/implant.svg';
 export { default as ImplantologjiIcon} from './Icons/implantology-icon.svg';
+export { default as ConservativeIcon} from './Icons/conservative-icon.svg';
 
 
 // Gallery
