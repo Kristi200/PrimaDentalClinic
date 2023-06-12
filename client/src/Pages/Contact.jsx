@@ -31,7 +31,7 @@ const Contact = (props) => {
 
   return (
     <div className='flex sm:flex-col md:flex-col lg:flex-row justify-center gap-10 w-full mb-24 sm:px-3 md:px-16 '>
-      <form className='sm:w-full lg:w-[38%]  text-white' action="https://formspree.io/f/mbjevbjr " method="POST">
+      <form className='sm:w-full lg:w-[38%]  text-white' action="https://formspree.io/f/xoqzgqag" method="POST">
         <div className='flex flex-col child:mb-5 child:px-8 pt-8 BackgroundImage'>
           <p className="text-2xl font-bold">{t("formTitle")}</p>
           <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-5  '>
