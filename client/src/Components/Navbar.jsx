@@ -27,7 +27,7 @@ const Navbar = (props) => {
                         <img src={PhoneCallIcon} alt="Phone Icon" />
                         +355 69 972 4951
                     </p></a>
-                    <a href="mailto:primadentalclinic2023@gmail.com" onclick="window.location=another.html"><p className="flex flex-row justify-center gap-2 sm:py-1 md:pl-3 lg:px-7">
+                    <a href="mailto:primadentalclinic2023@gmail.com" onClick={() => window.location.href}><p className="flex flex-row justify-center gap-2 sm:py-1 md:pl-3 lg:px-7">
                         <img src={EmailIcon} alt="Email Icon" />
                         primadentalclinic2023@gmail.com
                     </p></a>

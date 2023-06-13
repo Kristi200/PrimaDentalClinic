@@ -5,8 +5,6 @@ import { ServicesDataItalian } from '../data/Services Data/data.italian.json';
 import { ServicesDataAlbanian } from '../data/Services Data/data.albanian.json';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import ReactGA from 'react-ga';
-
 
 const Services = (props) => {
   const [categoryData, setCategoryData] = useState({});
@@ -15,7 +13,6 @@ const Services = (props) => {
   const {language} = props;
 
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname)
     if(language == "it"){
       setCategoryData(ServicesDataItalian)
     }else if(language == "sq"){
@@ -24,15 +21,6 @@ const Services = (props) => {
       setCategoryData(ServicesData)
     }
   },[language])
-
-  const serviceDataAdd = (data) => {
-    setTypeOfService(data)
-    ReactGA.event({
-      category: data.category,
-      action: data.id
-    })
-
-  }
 
   const searchFunction = (e) => {
     if(language == "en"){
@@ -92,7 +80,7 @@ const Services = (props) => {
                   </div>
                   <img src={data.icon} width={70} className={`relative bottom-9 left-5 z-10  p-${data.iconPadding} rounded-full bg-white shadow shadow-neutral-500 group-hover:bg-[#00ACB1] border-8 border-white duration-500`}/>
                   <div className='p-5  border-r-2 border-slate-100 border-b-2 -mt-10 '>
-                    <Link to={`/services/${data.id}`} onClick={() => serviceDataAdd(data)}><p className='text-[#002856] text-2xl font-bold pb-5 hover:text-[#00ACB1]'>{data.title}</p></Link>
+                    <Link to={`/services/${data.id}`} onClick={() => setTypeOfService(data)}><p className='text-[#002856] text-2xl font-bold pb-5 hover:text-[#00ACB1]'>{data.title}</p></Link>
                     <p className='text-sm  text-neutral-500 truncate'>{data.subDescription}</p>
                   </div>
                 </div>

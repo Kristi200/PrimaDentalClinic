@@ -54,7 +54,7 @@ const TermsAndConditions = () => {
                     <li>{t("termsDescription4Part2List5")}</li>
                     <li>{t("termsDescription4Part2List6")}</li>
                 </ol>
-                <p className='text-neutral-500 leading-8'><Trans components={{ br: <br/>,email: <a href="mailto:primadentalclinic2023@gmail.com" className='text-red-500 hover:underline' onclick="window.location=another.html">primadentalclinic2023@gmail.com</a>}}>{t("termsDescription4Part2Text2")}</Trans></p>
+                <p className='text-neutral-500 leading-8'><Trans components={{ br: <br/>,email: <a href="mailto:primadentalclinic2023@gmail.com" className='text-red-500 hover:underline' onClick={() => window.location.href}>primadentalclinic2023@gmail.com</a>}}>{t("termsDescription4Part2Text2")}</Trans></p>
                 <ol className='text-neutral-500 list-decimal list-inside child:mb-3 pl-3'>
                     <li>{t("termsDescription4Part2List7")}</li>
                     <li>{t("termsDescription4Part2List8")}</li>

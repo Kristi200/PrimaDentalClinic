@@ -24,7 +24,7 @@ const Footbar = () => {
                     <img src={Contact} alt='Contact Support'/>
                     +355 69 972 4951
                 </p></a>
-                <a href="mailto:primadentalclinic2023@gmail.com" onclick="window.location=another.html"><p className='flex flex-row gap-2'>
+                <a href="mailto:primadentalclinic2023@gmail.com" onClick={() => window.location.href}><p className='flex flex-row gap-2'>
                     <img src={EmailIcon} alt='Email Icon'/>
                     primadentalclinic2023@gmail.com
                 </p></a>

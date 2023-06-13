@@ -49,7 +49,7 @@ const PrivacyPolicyPage = () => {
                 <p className='lg:text-3xl text-[#002856] font-bold'>{t("descriptionTitle11")}</p>
                 <p className='text-neutral-500 leading-8'><Trans components={{ br: <br/>}}>{t("description11")}</Trans></p>
                 <p className='lg:text-3xl text-[#002856] font-bold'>{t("contactTitle")}</p>
-                <p className='text-neutral-500 leading-8'><Trans components={{ email: <a href="mailto:primadentalclinic2023@gmail.com" className='text-red-500 hover:underline' onclick="window.location=another.html">email</a>, phone:  <a className='text-red-500 hover:underline' href="tel:+355699724951">tel</a>}}>{t("contactDescription")}</Trans></p>
+                <p className='text-neutral-500 leading-8'><Trans components={{ email: <a href="mailto:primadentalclinic2023@gmail.com" className='text-red-500 hover:underline' onClick={() => window.location.href}>email</a>, phone:  <a className='text-red-500 hover:underline' href="tel:+355699724951">tel</a>}}>{t("contactDescription")}</Trans></p>
             </div>
         </div>
     )
