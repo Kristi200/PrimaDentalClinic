@@ -24,7 +24,7 @@ const About = () => {
         <div className='items-center'>
           <p className='text-[#00ACB1] font-bold'>{t("getToKnowUs")}</p>
           <p className='text-[#002856] sm:text-3xl text-4xl font-bold py-5'>{t("aboutUsTitle")}</p>
-          <p className='text-lg text-neutral-500'><Trans components={{ br: <br className='sm:hidden md:hidden'/> }}>{t("aboutUsDescription")}</Trans></p>
+          <p className='text-lg text-neutral-500'><Trans components={{ br: <br className="lg:hidden md:hidden sm:hidden"/>}}>{t("aboutUsDescription")}</Trans></p>
         </div>
       </div>
       {/* More Info */}

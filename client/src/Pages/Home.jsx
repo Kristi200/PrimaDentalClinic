@@ -1,4 +1,4 @@
-import {useState} from "react"
+import {useEffect, useState} from "react"
 import { BackgroundImage, CheckUpIcon, CosmeticIcon, GeneralIcon, Implant, MedIcon, Slide1, Slide2, Slide3, TeethIcon} from "../assets/index";
 import { GallerySwiper,Services,Blog } from '../Components/index';
 import { Contact} from "./index";

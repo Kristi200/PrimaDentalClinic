@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next';
 const ServiceTypes = (props) => {
     const {typeOfService} = props;
     const { t } = useTranslation(); 
+    
     return (
         <div className="w-full flex-col">
             {/* First Section */}

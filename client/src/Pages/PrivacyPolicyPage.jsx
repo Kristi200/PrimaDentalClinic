@@ -1,8 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { AboutImg } from '../assets';
 import { Trans, useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-
 
 const PrivacyPolicyPage = () => {
     const { t } = useTranslation();

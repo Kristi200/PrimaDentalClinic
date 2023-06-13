@@ -8,3 +8,4 @@ export { default as ContactPage } from './ContactPage';
 export { default as ServiceTypes } from './ServiceTypes';
 export { default as BlogsTypes } from './BlogTypes';
 export { default as PrivacyPolicy } from './PrivacyPolicyPage';
+export { default as TermsConditions } from './TermsAndConditions';
