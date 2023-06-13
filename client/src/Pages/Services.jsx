@@ -5,6 +5,8 @@ import { ServicesDataItalian } from '../data/Services Data/data.italian.json';
 import { ServicesDataAlbanian } from '../data/Services Data/data.albanian.json';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import ReactGA from 'react-ga';
+
 
 const Services = (props) => {
   const [categoryData, setCategoryData] = useState({});
@@ -13,8 +15,7 @@ const Services = (props) => {
   const {language} = props;
 
   useEffect(() => {
-
-
+    ReactGA.pageview(window.location.pathname)
     if(language == "it"){
       setCategoryData(ServicesDataItalian)
     }else if(language == "sq"){
@@ -26,7 +27,10 @@ const Services = (props) => {
 
   const serviceDataAdd = (data) => {
     setTypeOfService(data)
-
+    ReactGA.event({
+      category: data.category,
+      action: data.id
+    })
 
   }
 

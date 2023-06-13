@@ -5,7 +5,9 @@ import Navbar from './Components/Navbar';
 import { useState,useLayoutEffect } from 'react';
 import { Logo, Whatsapp } from './assets/index';
 import Footbar from './Components/Footbar';
+import ReactGA from 'react-ga';
 
+ReactGA.initialize('G-FRDW6Q9T7Z')
 
 function App() {
   const [ loading, setLoading ] = useState(false);
